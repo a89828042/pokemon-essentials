@@ -399,3 +399,19 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+#-------------------------------
+[GRANDMA]
+Name = Grandma
+Gender = Female
+BaseMoney = 200
+SkillLevel = 90
+BattleBGM = Battle Champion
+VictoryBGM = Battle victory leader
+#-------------------------------
+[TRUEBOSS]
+Name = True Boss
+Gender = Female
+BaseMoney = 250
+SkillLevel = 100
+BattleBGM = Battle Champion
+VictoryBGM = Battle victory leader

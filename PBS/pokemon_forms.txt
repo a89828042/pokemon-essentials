@@ -2312,3 +2312,14 @@ Color = Black
 Shape = Quadruped
 Category = High King
 Pokedex = Legend says that by using its power to see all events from past to future, this Pokémon saved the creatures of a forest from a meteorite strike.
+#-------------------------------
+[HELLOEATER,1]
+FormName = Glitch Mode
+Types = DRAGON,GHOST
+BaseStats = 150,180,120,80,180,120
+BaseExp = 400
+CatchRate = 1
+Abilities = PRESSURE
+Weight = 999.9
+Color = Black
+Description = The corrupted core of Grandma's leftover code. It constantly leaks digital noise and consumes everything in its path.

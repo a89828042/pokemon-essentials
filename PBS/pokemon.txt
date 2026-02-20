@@ -23113,3 +23113,24 @@ Category = King
 Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.
 Generation = 8
 Flags = Legendary
+#-------------------------------
+[HELLOEATER]
+Name = Hello Eater
+Types = DRAGON,DARK
+BaseStats = 120,150,100,80,150,100
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 340
+EVs = ATTACK,3,SPECIAL_ATTACK,3
+CatchRate = 3
+Happiness = 0
+Abilities = STRONGJAW
+HiddenAbility = 
+Moves = 1,TACKLE,1,BITE,50,CRUNCH,100,GIGAIMPACT
+Pokedex = 0
+Category = Polite
+Height = 1.5
+Weight = 150.0
+Color = White
+Shape = Quadruped
+Description = It politely requests a bite, then takes away your HP. A leftover backdoor program from Grandma's youth.
