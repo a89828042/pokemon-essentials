@@ -116,3 +116,70 @@ Pokemon = CHARIZARD,63
     Item = SITRUSBERRY
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
+#==================================================
+# 一週目：慈祥的聯盟冠軍 (無 EV，保留滿 IV 體質)
+#==================================================
+[GRANDMA,Grandma]
+LoseText = "My goodness! You ate through all my strategies! You truly are a growing champion. Have some pocket money, dear!"
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE,MEGARING
+Pokemon = HAPPYCAT,60
+  Item = FOCUSSASH
+  Moves = STEALTHROCK,HAPPYJUMP,KNOCKOFF,YAWN
+  IV = 31
+Pokemon = POPCAT,60
+  Item = EVIOLITE
+  Moves = POPPOPPOP,CALMMIND,SLACKOFF,SUBSTITUTE
+  IV = 31
+Pokemon = POLITECAT,60
+  Item = CHOICESPECS
+  Moves = PSYCHIC,DAZZLINGGLEAM,SHADOWBALL,POLITEREFUSAL
+  IV = 31
+Pokemon = MAXWELL,60
+  Item = ROCKYHELMET
+  Moves = MAXWELLSPIN,TOXIC,PROTECT,IRONDEFENSE
+  IV = 31
+Pokemon = DRAMATICAT,60
+  Item = LIFEORB
+  Moves = DRAMATICEXIT,DARKPULSE,NASTYPLOT,DESTINYBOND
+  IV = 31
+Pokemon = LONGCAT,62
+  Item = MEMESTONE
+  Moves = LONGSTRETCH,EARTHQUAKE,CRUNCH,CURSE
+  IV = 31
+
+#==================================================
+# 二週目：地獄級對戰塔大魔王 (全員 Lv. 100)
+#==================================================
+[TRUEBOSS,True Boss]
+LoseText = "E R R O R : A p p e t i t e _ O v e r f l o w . . . T h a n k  y o u  f o r  t h e  m e a l ."
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+Pokemon = HAPPYCAT,100
+  Item = FOCUSSASH
+  Moves = STEALTHROCK,HAPPYJUMP,KNOCKOFF,YAWN
+  IV = 31
+  EV = 252,6,0,252,0,0
+Pokemon = POPCAT,100
+  Item = EVIOLITE
+  Moves = POPPOPPOP,CALMMIND,SLACKOFF,SUBSTITUTE
+  IV = 31
+  EV = 252,0,128,0,0,128
+Pokemon = POLITECAT,100
+  Item = CHOICESPECS
+  Moves = PSYCHIC,DAZZLINGGLEAM,SHADOWBALL,POLITEREFUSAL
+  IV = 31
+  EV = 6,0,0,252,252,0
+Pokemon = MAXWELL,100
+  Item = ROCKYHELMET
+  Moves = MAXWELLSPIN,TOXIC,PROTECT,IRONDEFENSE
+  IV = 31
+  EV = 252,0,252,0,0,6
+Pokemon = DRAMATICAT,100
+  Item = LIFEORB
+  Moves = DRAMATICEXIT,DARKPULSE,NASTYPLOT,DESTINYBOND
+  IV = 31
+  EV = 6,0,0,252,252,0
+Pokemon = HELLOEATER,100
+  Form = 1
+  Moves = CROSSBORDERCHOPSTICKS,DRAGONDANCE,OUTRAGE,REST
+  IV = 31
+  EV = 252,252,0,6,0,0

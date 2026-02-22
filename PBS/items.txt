@@ -6563,3 +6563,11 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[MEMESTONE]
+Name = Meme Stone
+NamePlural = Meme Stones
+Pocket = 1
+Price = 0
+Flags = MegaStone
+Description = A mysterious stone radiating chaotic internet energy. It allows certain Meme Cats to Mega Evolve in battle.

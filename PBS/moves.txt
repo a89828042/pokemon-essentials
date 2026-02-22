@@ -8710,3 +8710,95 @@ TotalPP = 40
 Target = User
 FunctionCode = RaiseUserDefense1
 Description = The user withdraws its body into its hard shell, raising its Defense stat.
+#-------------------------------
+[HAPPYJUMP]
+Name = Happy Jump
+Type = NORMAL
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 40
+Description = A rhythmic and cheerful jump. It deals damage and leaves the target confused.
+
+#-------------------------------
+[CROSSBORDERCHOPSTICKS]
+Name = Cross-Border Chopsticks
+Type = NORMAL
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = CrossBorderChopsticks
+Flags = Contact,Protect,Mirror
+Description = A pair of giant, pixelated chopsticks falls from the sky. It ignores typing and eats the target's held item.
+
+#-------------------------------
+[POPPOPPOP]
+Name = Pop Pop Pop!
+Type = NORMAL
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Protect,Mirror,Sound
+Description = The user opens its mouth wide and makes a loud popping noise 2 to 5 times in a row.
+
+#-------------------------------
+[POLITEREFUSAL]
+Name = Polite Refusal
+Type = FAIRY
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 10
+Priority = 4
+Target = User
+FunctionCode = ProtectUserFromDamagingMovesKingsShield
+Description = The user politely declines the attack. Protects from attacks and sharply lowers the attacker's Attack if they make contact.
+
+#-------------------------------
+[MAXWELLSPIN]
+Name = Maxwell Spin
+Type = STEEL
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RemoveUserBindingAndEntryHazards
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = A spin attack that clears away hazards like Stealth Rock and Spikes from the user's side.
+
+#-------------------------------
+[DRAMATICEXIT]
+Name = Dramatic Exit
+Type = GHOST
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = Protect,Mirror
+Description = The user screams in panic, attacks the target, and immediately switches out to a teammate.
+
+#-------------------------------
+[LONGSTRETCH]
+Name = Long Stretch
+Type = NORMAL
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = HitBypassesTargetProtect
+Flags = Contact,Mirror
+Description = The user stretches its incredibly long body to strike. This attack cannot be blocked by Protect or Detect.

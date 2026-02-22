@@ -2323,3 +2323,12 @@ Abilities = PRESSURE
 Weight = 999.9
 Color = Black
 Description = The corrupted core of Grandma's leftover code. It constantly leaks digital noise and consumes everything in its path.
+#-------------------------------
+[LONGCAT,1]
+FormName = Mega Longcat
+MegaStone = MEMESTONE
+BaseStats = 210,150,110,60,100,100
+Abilities = HUGEPOWER
+Weight = 999.9
+Height = 50.0
+Description = It has absorbed the energy of the Meme Stone and expanded infinitely. Its length now pierces the stratosphere.
