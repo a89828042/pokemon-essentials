@@ -8715,14 +8715,14 @@ Description = The user withdraws its body into its hard shell, raising its Defen
 Name = Happy Jump
 Type = NORMAL
 Category = Physical
-Power = 50
+Power = 60
 Accuracy = 100
 TotalPP = 10
-Target = NearOther
+Target = AllNearOthers
 FunctionCode = ConfuseTarget
 Flags = Contact,CanProtect,CanMirrorMove
-EffectChance = 40
-Description = A rhythmic and cheerful jump. It deals damage and leaves the target confused.
+EffectChance = 75
+Description = A rhythmic and cheerful jump. It damages and leaves everyone on the field in a happy confusion!
 
 #-------------------------------
 [CROSSBORDERCHOPSTICKS]
@@ -8802,3 +8802,45 @@ Target = NearOther
 FunctionCode = HitBypassesTargetProtect
 Flags = Contact,Mirror
 Description = The user stretches its incredibly long body to strike. This attack cannot be blocked by Protect or Detect.
+
+#-------------------------------
+[CRISPYBLADES]
+Name = Crispy Blades
+Type = FIRE
+Category = Physical
+Power = 120
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Slashes the target with superheated, crispy blades. May inflict a burn.
+
+#-------------------------------
+[ABYSSALHISS]
+Name = Abyssal Hiss
+Type = WATER
+Category = Special
+Power = 120
+Accuracy = 85
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = LowerTargetSpDef1
+Flags = Sound,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = A terrifying screech from the deep. Damages all nearby Pokémon and may lower their Sp. Def.
+
+#-------------------------------
+[SPINNINGASCENT]
+Name = Spinning Ascent
+Type = DRAGON
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user spins uncontrollably into the sky and crashes down. Raises the user's Speed.

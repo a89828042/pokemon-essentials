@@ -23211,3 +23211,51 @@ EVs = HP,3
 Abilities = GUTS
 Moves = 1,LONGSTRETCH,1,LEER,10,CURSE,20,BODYSLAM,30,EARTHQUAKE,40,CRUNCH
 Description = An impossibly long cat. It is said that its length represents the infinite love of its owner.
+
+#-------------------------------
+[CORNDOGCAT]
+Name = Corn Dog Cat
+FormName = Low-Res
+Types = GROUND,FIRE
+BaseStats = 100,150,140,90,100,90
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 340
+EVs = ATTACK,3
+CatchRate = 3
+Happiness = 0
+Abilities = DROUGHT
+Moves = 1,CRISPYBLADES,1,EARTHQUAKE,1,FLAREBLITZ,10,SCARYFACE,20,LAVAPLUME,25,THUNDERFANG,30,STONEEDGE,40,ERUPTION,50,WILDCHARGE
+Pokedex = A low-res entity of immense heat. Its unstable summoning caused it to lose its deep-fried saturation.
+
+#-------------------------------
+[MEOWLCAT]
+Name = Meowl Cat
+FormName = Low-Res
+Types = WATER,FLYING
+BaseStats = 100,100,90,90,150,140
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 340
+EVs = SPECIAL_ATTACK,3
+CatchRate = 3
+Happiness = 0
+Abilities = DRIZZLE
+Moves = 1,ABYSSALHISS,1,SURF,1,HURRICANE,10,AQUARING,20,MUDDYWATER,30,REST,40,WATERSPOUT
+Pokedex = The low-res ruler of the abyss. Due to a failed summoning, it currently only has the power of a regular rainstorm.
+
+#-------------------------------
+[OIIACAT]
+Name = Oiia Cat
+FormName = Base Form
+Types = DRAGON,PSYCHIC
+BaseStats = 105,150,90,95,150,90
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 340
+EVs = ATTACK,1,SPECIAL_ATTACK,1,SPEED,1
+CatchRate = 3
+Happiness = 0
+Abilities = AIRLOCK
+Moves = 1,SPINNINGASCENT,1,DRAGONDANCE,1,PSYCHIC,10,EXTREMESPEED,20,DRAGONPULSE,30,REST,40,OUTRAGE
+Pokedex = An enigmatic entity that constantly spins in the ozone layer. It observes the world below, waiting for the Ragnarok.

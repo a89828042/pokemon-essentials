@@ -2332,3 +2332,24 @@ Abilities = HUGEPOWER
 Weight = 999.9
 Height = 50.0
 Description = It has absorbed the energy of the Meme Stone and expanded infinitely. Its length now pierces the stratosphere.
+#-------------------------------
+[CORNDOGCAT,1]
+FormName = Primal Corndogcat
+MegaStone = MEMESTONE
+BaseStats = 100,180,160,90,150,90
+Abilities = DEEPFRYER
+Pokedex = Having reclaimed its True Meme Stone, it turns the entire world into a giant, high-temperature deep fryer.
+#-------------------------------
+[MEOWLCAT,1]
+FormName = Primal Meowlcat
+MegaStone = MEMESTONE
+BaseStats = 100,150,90,90,180,160
+Abilities = ABYSSALSTARE
+Pokedex = Fully hydrated by the True Meme Stone. Its stare alone drags entire continents into the deep abyss.
+#-------------------------------
+[OIIACAT,1]
+FormName = Primal Oiiacat
+MegaStone = MEMESTONE
+BaseStats = 105,180,100,115,180,100
+Abilities = MEMESTREAM
+Pokedex = Spinning at maximum velocity, it generates a chaotic airflow that clears all logic, weather, and stats from the field.

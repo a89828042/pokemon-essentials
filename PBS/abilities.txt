@@ -1070,3 +1070,15 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 [ASONEGRIMNEIGH]
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
+#-------------------------------
+[DEEPFRYER]
+Name = Deep Fryer
+Description = Summons harsh sunlight. Burns all non-Fire types. Effects wear off when switching out.
+#-------------------------------
+[ABYSSALSTARE]
+Name = Abyssal Stare
+Description = Summons heavy rain and sharply lowers the Sp. Def of all other Pokémon. Fades when switching out.
+#-------------------------------
+[MEMESTREAM]
+Name = Meme Stream
+Description = Clears all weather, stat changes, hazards, and field effects upon entering the battle.
